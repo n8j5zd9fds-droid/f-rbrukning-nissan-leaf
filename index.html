@@ -42,7 +42,7 @@ energienheter, förvärmningsbalans, åldersvikt, enskild resas vikt,
 distansviktning, utrustningsisolering, aktivering 0 och 1, höjdenergi.
 Ej fullständiga browser- eller integrationstester. Inga runtimeändringar.
 -->
-<html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#091321"><title>Min Elbil 8.62</title><style>
+<html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#091321"><title>Min Elbil 8.63</title><style>
 *{box-sizing:border-box}body{margin:auto;max-width:780px;background:#091321;color:#e9f2ff;font:16px system-ui;padding:16px}h1{margin:0;font-size:28px}small,p{color:#a8b9cd}nav{display:flex;gap:5px;overflow:auto;margin:18px 0}button,input,select,textarea{font:inherit;color:inherit;background:#172a40;border:1px solid #354961;border-radius:9px;padding:10px}button{cursor:pointer}button.active,.primary{background:#38bdf8;color:#071522;border:0;font-weight:700}section,article{background:#111f32;border-radius:14px;padding:16px;margin:12px 0}label{display:block;color:#b8c8dc;font-size:14px;margin:9px 0}input,select,textarea{display:block;width:100%;margin-top:5px}input[type=checkbox]{width:auto;display:inline}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.big{font-size:34px;font-weight:700;color:#38bdf8}.pos{color:#67e8a5}.neg{color:#fca5a5}table{width:100%;border-collapse:collapse}td,th{text-align:right;padding:8px;border-bottom:1px solid #304259}td:first-child,th:first-child{text-align:left}.quick{display:flex;gap:5px;flex-wrap:wrap}.quick button{padding:6px 10px}textarea{min-height:100px}body{padding-bottom:calc(48px + env(safe-area-inset-bottom,0px))}.grid>label{min-width:0}input,select,textarea{min-width:0;max-width:100%}input[type=date]{-webkit-appearance:none;appearance:none;min-width:0;width:100%;display:block}input[type=date]::-webkit-date-and-time-value{text-align:left}#logform .grid>label:has([name=note]){grid-column:1/-1}#logform{padding-bottom:16px}.quick{flex-wrap:nowrap;gap:4px;margin:5px 0 10px}.quick button{flex:1;min-width:0;padding:8px 0;font-size:clamp(11px,3.5vw,15px)}input:disabled{opacity:.7}.quicklabel{display:block;margin-top:10px}.autohelp{display:block;margin:6px 0 14px}.charge{border-top:1px solid #354961;margin-top:18px;padding-top:16px}.charge h2{margin:0 0 8px}.charge-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #354961}.charge-row strong{color:#38bdf8;text-align:right;white-space:nowrap}.charge-row small{display:block}.warn{color:#fbbf24}.grid article{min-width:0;padding:12px}.grid article .big{font-size:clamp(22px,7vw,34px);overflow-wrap:anywhere}.socpanel h3{font-size:17px;margin:0 0 18px;color:#e9f2ff}.socbattery{position:relative;border:2px solid #b8c8dc;border-radius:12px;height:58px;width:65%;margin:30px auto 32px;isolation:isolate}.socbattery:after{content:'';position:absolute;left:calc(100% + 5px);top:30%;height:40%;width:9px;background:#b8c8dc;border-radius:3px}.socbattery #socfill{position:absolute;inset:3px auto 3px 0;max-width:100%;background:#38bdf8;border-radius:8px;z-index:-1}.socbattery strong{display:grid;place-items:center;height:100%;font-size:27px;color:#fff;text-shadow:0 1px 4px #071522}.socadjust{display:flex;align-items:center;gap:10px}.socadjust button{border-radius:50%;width:42px;height:42px;flex:none;padding:0;font-size:24px}.socadjust input{flex:1;min-width:0;margin:0;padding:0;accent-color:#38bdf8;background:transparent;border:0;height:40px}.socscale{display:flex;justify-content:space-between;color:#a8b9cd;font-size:14px;margin-top:8px}.socpanel hr{border:0;border-top:1px solid #354961;margin:26px 0}.soctarget{text-align:center;font-size:32px;font-weight:700;margin:18px 0}.socpanel .quick button{border-radius:24px;min-height:40px}#wizardbuttons #wizardnext{flex:1}#wizardbuttons button{min-height:46px;border-radius:24px}.weatherbox{background:#172a40;border-radius:14px;padding:16px;margin-bottom:22px}.weatherbox h3{font-size:17px;margin:0 0 12px}.weatherroute{font-size:13px;color:#a8b9cd}.weatherhero{display:flex;align-items:center;gap:10px;margin:20px 0}.weathericon{font-size:30px}.weatherhero strong{font-size:clamp(20px,6vw,30px);white-space:nowrap}.weatherhero small,.weatherleg small{display:block}.weatherwind{margin-left:auto;text-align:right}.weatherwind strong{font-size:clamp(17px,4.8vw,23px)}.weatherleg{display:flex;align-items:center;gap:10px;padding:14px 0;border-top:1px solid #354961}.weatherleg>strong{margin-left:auto;white-space:nowrap}.weatherarrow{font-size:25px;color:#38bdf8}.weathertotal{display:flex;justify-content:space-between;gap:8px;border-top:1px solid #354961;padding:14px 0;font-size:14px}.weatherdetails{font-size:12px;color:#a8b9cd;margin-top:12px}.weatherdetails a{color:#72b9ff}.weatherauto label:has([name=wind]),.weatherauto label:has([name=windDir]),.weatherauto label:has([name=ambient]),.weatherauto label:has([name=windDir])+small,.weatherauto label:has([name=ambient])+.quick,.weatherauto label:has([name=ambient])+.quick+small{display:none!important}#weatherstatus:empty{display:none}.roadcard{background:#172a40;border-radius:14px;padding:14px;margin:16px 0}.roadhead{display:flex;justify-content:space-between;gap:8px;align-items:center}.roadhead small{color:#67e8a5}.roadvalue{margin:14px 0}.roadvalue strong{font-size:24px;display:block}.roadvalue small{display:block;margin-top:4px}.roadcard [hidden]{display:none!important}#climatepanel{background:#1c1c1c;color:#fff;padding:20px}#climatepanel .climrow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:20px 0;color:#fff;font-size:17px}#climatepanel small{display:block}#climatepanel strong{font-size:26px;color:#72b9ff;white-space:nowrap}#climatepanel #cabinout{color:#f6a04d}#climatepanel input[type=range]{accent-color:#72b9ff;padding:0;height:40px}#climatepanel [hidden]{display:none!important}body:has(#wizardbuttons){padding-bottom:calc(124px + env(safe-area-inset-bottom,0px))}#wizardbuttons{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:780px;z-index:1200;background:#091321;border-top:1px solid #354961;padding:10px 16px calc(12px + env(safe-area-inset-bottom,0px));display:flex;flex-wrap:wrap;gap:8px;margin:0}#wizardbuttons .wizardprogress{display:flex;gap:4px;flex:0 0 100%;margin-bottom:3px}#wizardbuttons .wizardprogress span{flex:1;height:4px;border-radius:4px;background:#354961}#wizardbuttons .wizardprogress span.done{background:#38bdf8}#wizardbuttons #wizardback{flex:0 0 35%}#wizardbuttons #wizardnext{flex:1}body:has(#wizardbuttons) input,body:has(#wizardbuttons) select{scroll-margin-bottom:140px}html,body{max-width:100%;overflow-wrap:anywhere}body{max-width:780px}#app,section,article,details{min-width:0;max-width:100%}img,canvas,svg{max-width:100%}#charge852 .charge-choice{border:1px solid #354961;background:#132234}#charge852 .charge-choice article{padding:0;margin:12px 0;background:transparent}#charge852 h3{margin:0 0 12px}#chargeadvanced{padding:12px 0}#charge852 .charge-summary{background:#172a40}</style><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" onload="mountRouteMap()"></script><body><h1>Min Elbil <small id="appversion"></small></h1><small id="carlabel"></small><nav id="nav"></nav><main id="app"></main><script>
 let E=[0.8,1.04,1.27,1.51,1.75,1.99,2.24,2.48,2.73,2.98,3.24,3.49,3.75,4.01,4.27,4.53,4.8,5.06,5.33,5.6,5.87,6.14,6.42,6.69,6.99,7.25,7.62,7.85,8.09,8.37,8.66,8.94,9.23,9.51,9.8,10.1,10.39,10.68,10.97,11.27,11.56,11.86,12.16,12.46,12.76,13.06,13.36,13.66,13.97,14.27,14.58,14.89,15.19,15.5,15.81,16.12,16.44,16.75,17.06,17.38,17.69,18.08,18.33,18.65,18.97,19.29,19.61,19.89,20.21,20.54,20.86,21.19,21.52,21.84,22.17,22.5,22.83,23.17,23.5,23.83,24.16,24.5,24.84,25.17,25.51,26.19,26.52,26.86,26.96,27.21,27.62,27.89,28.23,28.58,28.92,29.26,29.61,29.96,30.3,30.65,31],W=[null,0.233,0.236,0.238,0.24,0.243,0.245,0.247,0.249,0.251,0.253,0.255,0.257,0.259,0.261,0.263,0.264,0.266,0.268,0.269,0.271,0.272,0.274,0.275,0.277,0.278,0.28,0.281,0.282,0.284,0.285,0.286,0.287,0.288,0.29,0.291,0.292,0.293,0.294,0.295,0.296,0.297,0.298,0.299,0.3,0.301,0.302,0.303,0.304,0.305,0.306,0.307,0.308,0.309,0.31,0.311,0.312,0.313,0.314,0.315,0.316,0.317,0.318,0.319,0.32,0.321,0.322,0.323,0.324,0.325,0.326,0.327,0.327,0.328,0.329,0.33,0.331,0.332,0.332,0.333,0.334,0.335,0.336,0.336,0.337,0.338,0.339,0.339,0.34,0.341,0.342,0.342,0.343,0.344,0.344,0.345,0.346,0.346,0.347,0.348,0.348],defaults={roofBox:'no',bikeRack:'none',start:100,target:15,km:160,cons:16.9,speed:85,ambient:-3,cabin:20,tires:'winter',road:'dry',note:'',auto:true,climate:false,preMinutes:0,prePower:3,gridPower:0,extraPower:0,batteryTempMode:'calibrated',batteryTemp:0,batteryLoss:0,vehicleMass:1600,extraMass:0,ascent:0,descent:0,regenPct:60,extraCycles:0,cycleLow:0,cycleHigh:50,stopMinutes:0,stopPower:0,chargeSOC:20,acSupply:2.3,acLimit:6.6,acEff:87,dcSupply:50,dcLimit:50,dcEff:95,dcTempFactor:100,dcConnector:'unknown',wind:0,windDir:'head'};
 const leafE=E.slice(),leafW=W.slice(),cars={leaf40:['Nissan Leaf 40 kWh',30.2,16.9],leaf62:['Nissan Leaf e+ 62 kWh',56,18],zoe:['Renault Zoe 52 kWh',52,17],kona:['Hyundai Kona 64 kWh',64,16],id3:['VW ID.3 58 kWh',58,17],model3:['Tesla Model 3 RWD',57,15],other:['Annan elbil',50,18]};let profiles={},active='';try{profiles=JSON.parse(localStorage.getItem('elbil-profiles'))||profiles;active=localStorage.getItem('elbil-active')||active}catch{}if(!Object.keys(profiles).length&&localStorage.getItem('leaf-v52'))profiles.original={reg:'',model:'leaf40'};if(!profiles[active])active=Object.keys(profiles)[0]||'';const storageKey=()=>active==='original'?'leaf-v52':'elbil-car-'+active;function applyProfile(){let p=profiles[active];if(!p)return;if(p.curve){E=p.curve.e.slice();W=p.curve.w.slice();if(p.model==='leaf40'&&E.length===101&&E[0]===.8&&E[100]===31&&E[21]===6.94){for(let [i,n] of Object.entries({"21":6.14,"22":6.42,"23":6.69,"55":16.12,"56":16.44,"57":16.75,"85":26.19,"86":26.52,"87":26.86}))E[i]=n;p.curve.e=E.slice();storeProfiles()}}else if(active==='original'){E=leafE.slice();W=leafW.slice()}else{let cap=(p.capacity||cars[p.model][1])*(p.soh||100)/100;E=Array.from({length:101},(_,i)=>cap*i/100);W=E.map((_,i)=>i?cap/100:null)}}
@@ -180,6 +180,72 @@ function fitLearning862(records, context) {
   }
   return {ready:true,active:false,baseline,center,beta,names,enabled,bounds,groups,support:st,
     context:{vehicleId:context.vehicleId,modelVersion:context.modelVersion,calibrationVersion:context.calibrationVersion}};
+}
+
+/* 8.63: conservative chronological shadow validation. Never activates runtime.
+   legacyKwh must be a frozen pre-trip forecast on the same driving-only scope.
+   Thresholds are provisional engineering safeguards, not empirical guarantees. */
+function validateLearning863(records, context) {
+  const reject=reason=>({approved:false,active:false,reason});
+  if(!context||!Number.isFinite(context.now)||!Array.isArray(records))return reject('context');
+  const counts=new Map();
+  for(const r of records)if(r?.trip?.id)counts.set(r.trip.id,(counts.get(r.trip.id)||0)+1);
+  const rows=[];
+  for(const r of records){
+    if(!r?.trip||!r.evidence||r.vehicleId!==context.vehicleId||
+      r.calibrationVersion!==context.calibrationVersion||
+      r.evidence.frozen?.modelVersion!==context.modelVersion||counts.get(r.trip.id)!==1)continue;
+    const date=Date.parse(r.trip.date), n=normalizeTrip861(r.trip,r.evidence);
+    if(!Number.isFinite(date)||date>context.now||!n.eligible||!Number.isFinite(n.residual))continue;
+    rows.push({r,n,date,day:new Date(date).toISOString().slice(0,10)});
+  }
+  rows.sort((a,b)=>a.date-b.date);
+  const days=[...new Set(rows.map(x=>x.day))];
+  if(days.length<15)return reject('independent-days');
+  const cutoff=days[Math.floor(days.length*.7)];
+  const train=rows.filter(x=>x.day<cutoff), hold=rows.filter(x=>x.day>=cutoff);
+  const clean=train.filter(x=>x.n.referenceEligible);
+  if(clean.length<12)return reject('training-support');
+  const median=a=>{const b=[...a].sort((x,y)=>x-y),i=Math.floor(b.length/2);return b.length%2?b[i]:(b[i-1]+b[i])/2};
+  const med=median(clean.map(x=>x.n.residual)),mad=median(clean.map(x=>Math.abs(x.n.residual-med)));
+  const limit=Math.max(2,4.5*1.4826*mad);
+  const filtered=train.filter(x=>Math.abs(x.n.residual)<=15&&(!x.n.referenceEligible||Math.abs(x.n.residual-med)<=limit));
+  const model=fitLearning862(filtered.map(x=>x.r),{...context,now:Date.parse(cutoff)});
+  if(!model.ready||model.support.effective<12||model.support.days<8)return reject('effective-training-support');
+  const groups=new Map();
+  for(const h of hold){
+    const v=h.n.values,f=h.r.evidence.frozen;
+    if(f.legacyScope!=='driving-only'||f.legacyCapturedBeforeTrip!==true||
+      !Number.isFinite(f.legacyKwh)||f.legacyKwh<0)continue;
+    const x=[(v.ambient+3)/10,(v.speed-85)/20,v.wind*(v.windDir==='head'?1:v.windDir==='tail'?-1:0)/5,
+      v.windDir==='side'?v.wind/5:0,(v.cabin-20)/5,+(v.tires==='summer'),+(v.road==='wet'),+(v.road==='snow'),+(v.road==='slush')];
+    if(!x.every((z,i)=>Number.isFinite(z)&&z>=model.bounds[i][0]-1e-9&&z<=model.bounds[i][1]+1e-9))continue;
+    const key=h.n.equipment, g=model.groups[key];
+    if(!h.n.referenceEligible&&!g)continue;
+    const correction=model.baseline+model.beta.reduce((a,b,i)=>a+b*(x[i]-model.center[i]),0)+(g?.delta||0);
+    if(!Number.isFinite(correction)||Math.abs(correction)>5)continue;
+    const actual=h.n.measuredKwh*100/v.km;
+    const legacy=f.legacyKwh*100/v.km;
+    const candidate=(f.physicsKwh+f.oneOffKwh)*100/v.km+correction;
+    if(candidate<0)continue;
+    if(!groups.has(key))groups.set(key,[]);
+    groups.get(key).push({day:h.day,old:legacy-actual,next:candidate-actual});
+  }
+  const results={};
+  for(const [key,a] of groups){
+    const byDay=new Map();
+    for(const r of a){if(!byDay.has(r.day))byDay.set(r.day,[]);byDay.get(r.day).push(r)}
+    const avg=(b,f)=>b.reduce((s,r)=>s+f(r),0)/b.length;
+    const d=[...byDay.values()].map(b=>({old:avg(b,r=>Math.abs(r.old)),next:avg(b,r=>Math.abs(r.next)),ob:avg(b,r=>r.old),nb:avg(b,r=>r.next)}));
+    const oldMAE=avg(d,r=>r.old),newMAE=avg(d,r=>r.next),oldBias=avg(d,r=>r.ob),newBias=avg(d,r=>r.nb);
+    const gain=oldMAE-newMAE, sd=Math.sqrt(d.reduce((s,r)=>s+(r.old-r.next-gain)**2,0)/Math.max(1,d.length-1));
+    const lowerGain=gain-3*sd/Math.sqrt(d.length);
+    results[key]={n:a.length,days:d.length,oldMAE,newMAE,oldBias,newBias,lowerGain,
+      approved:a.length>=8&&d.length>=5&&gain>=Math.max(.2,.1*oldMAE)&&lowerGain>0&&Math.abs(newBias)<=Math.abs(oldBias)+.05};
+  }
+  const reference=results['no/none/none'];
+  return {approved:reference?.approved===true,active:false,reason:reference?.approved?'shadow-pass':'holdout-support-or-error',
+    cutoff,training:filtered.length,rejectedTraining:train.length-filtered.length,holdout:hold.length,results,model};
 }
 function valid(t){return ['km','cons','start','end','speed','ambient','cabin'].every(k=>typeof t[k]==='number'&&Number.isFinite(t[k]))&&t.km>0&&t.cons>=5&&t.cons<=60&&t.start<=100&&t.end>=0&&t.end<t.start&&t.speed>=20&&t.speed<=150&&t.ambient>=-40&&t.ambient<=45&&t.cabin>=10&&t.cabin<=30&&Object.hasOwn(roads,t.road)&&Object.hasOwn(tires,t.tires)}
 function learn(x=v){let sum=0,w=0,n=0;for(let t of data.trips){if(t.excludeTripLearning||!valid(t)||t.road!==x.road||t.tires!==x.tires||Math.abs(t.ambient-x.ambient)>5||Math.abs(t.speed-x.speed)>10||Math.abs(t.cabin-x.cabin)>3||Math.abs((Number(t.wind)||0)-(Number(x.wind)||0))>2||((Number(t.wind)||0)>0&&(Number(x.wind)||0)>0&&(t.windDir||'head')!==(x.windDir||'head')))continue;let age=Math.max(0,(Date.now()-new Date(t.date||t.time).getTime())/86400000);let q=Math.pow(.5,(Number.isFinite(age)?age:0)/180)*Math.min(1,t.km/50);sum+=q*clamp(t.cons-base(t)-100*climateEnergy(t)/t.km-extraRate(t)-terrainRate(t,Math.max(9,base(t))+extraRate(t))-cycleRate(t),-5,5);w+=q;n++}return {delta:sum/(1+w),n}}
@@ -358,7 +424,7 @@ function gpsAddress(j){let a=j.address||{};let road=a.road||a.pedestrian||a.resi
 document.addEventListener('click',e=>{if(e.target.id!=='routegps')return;if(routeBusy)return;if(!navigator.geolocation){alert('GPS stöds inte i denna webbläsare');return}const btn=e.target;btn.disabled=true;btn.textContent='Hämtar position…';navigator.geolocation.getCurrentPosition(async p=>{let gps={lat:p.coords.latitude,lon:p.coords.longitude};routePrefs.gps=gps;routePrefs.from='Min aktuella position';routePlan=null;saveRoute();render();try{let j=await routeJSON('https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&accept-language=sv&lat='+encodeURIComponent(gps.lat)+'&lon='+encodeURIComponent(gps.lon),{},1);if(routePrefs.gps!==gps||routeBusy)return;routePrefs.from=gpsAddress(j);saveRoute();let input=document.getElementById('routefrom');if(input)input.value=routePrefs.from}catch{}},err=>{btn.disabled=false;btn.textContent='📍 Använd min position';alert('Kunde inte hämta position. Tillåt platsåtkomst eller skriv startplats manuellt. '+err.message)},{enableHighAccuracy:true,timeout:20000,maximumAge:0})});
 document.addEventListener('input',e=>{let t=e.target;if(t.id!=='newreg'&&t.id!=='regedit')return;let upper=t.value.toUpperCase();if(t.value!==upper){let a=t.selectionStart,b=t.selectionEnd;t.value=upper;if(a!==null&&b!==null)t.setSelectionRange(a,b)}});
 render();readSharedLink();autoElevation();
-const APP_VERSION='8.62';
+const APP_VERSION='8.63';
 document.getElementById('appversion').textContent=APP_VERSION;
 document.title='Min Elbil '+APP_VERSION;
 let updateBusy=false;
